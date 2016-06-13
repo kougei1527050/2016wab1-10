@@ -32,14 +32,14 @@ footer{
     width:calc(50%-20px);
     float:left;
   }
-  #side;after{
+  #side:after{
     content:"";
     display:block;
     clear:both;
   }
 }
 
-@media screen and (win-width:1025px){
+@media screen and (min-width:1025px){
   #main{
     max-width:1024px;
     margin:auto;
