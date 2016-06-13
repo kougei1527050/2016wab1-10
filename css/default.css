@@ -5,30 +5,25 @@
   padding:0;
 }
 
-@media screen and(max-width:640px){
-  body{
-    background-color:red;
-  }
+body{
+  background-color:gray;
 }
 
-@media screen and(max-width:641px)and (max-width:980px){
-  body{
-    background-color:green;
-  }
+header{
+  padding:10px;
+  text-align:center;
+  background-color:red;
 }
-
-@media screen and(max-width:981px){
-  body{
-    background-color:blue;
-  }
+section{
+  padding:10px;
+  background-color:orange;
 }
-@media screen and (orientation:portrait){
-  body:after {
-    content:"縦長";
-  }
+aside{
+  padding:10px;
+  background-color:green;
 }
-@media screen and (orientation:landscape){
-  body:after {
-    content:"横長";
-  }
+footer{
+  padding:10px;
+  background-color:blue;
+  text-align:center;
 }
