@@ -28,7 +28,7 @@ footer{
   text-align:center;
 }
 
-@media screen and(orientation:portait){
+@media screen and(orientation:portrait){
   body:after{
     font-family: 'Noto Sans Japanese',sans-serif;
     content:"縦長";
